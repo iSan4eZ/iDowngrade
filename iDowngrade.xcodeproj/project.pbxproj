@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792B9DC720FBED2A00803217 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B9DC620FBED2A00803217 /* Device.swift */; };
+		792B9DC920FBED3600803217 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B9DC820FBED3600803217 /* Backup.swift */; };
+		792B9DCB20FBED3E00803217 /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B9DCA20FBED3E00803217 /* iOS.swift */; };
 		7983086720FBA66C0045BC7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983086620FBA66C0045BC7D /* AppDelegate.swift */; };
 		7983086920FBA66C0045BC7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983086820FBA66C0045BC7D /* ViewController.swift */; };
-		7983086B20FBA66D0045BC7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7983086A20FBA66D0045BC7D /* Assets.xcassets */; };
 		7983086E20FBA66D0045BC7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7983086C20FBA66D0045BC7D /* Main.storyboard */; };
 		7983087A20FBA66D0045BC7D /* iDowngradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983087920FBA66D0045BC7D /* iDowngradeTests.swift */; };
 		7983088520FBA66D0045BC7D /* iDowngradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983088420FBA66D0045BC7D /* iDowngradeUITests.swift */; };
+		79CAB7E820FBFA2A00DBEF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CAB7E720FBFA2A00DBEF4F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		792B9DC620FBED2A00803217 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		792B9DC820FBED3600803217 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		792B9DCA20FBED3E00803217 /* iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		7983086320FBA66C0045BC7D /* iDowngrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDowngrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7983086620FBA66C0045BC7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7983086820FBA66C0045BC7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7983086A20FBA66D0045BC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7983086D20FBA66D0045BC7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7983086F20FBA66D0045BC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7983087020FBA66D0045BC7D /* iDowngrade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDowngrade.entitlements; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		7983088020FBA66D0045BC7D /* iDowngradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDowngradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7983088420FBA66D0045BC7D /* iDowngradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDowngradeUITests.swift; sourceTree = "<group>"; };
 		7983088620FBA66D0045BC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CAB7E720FBFA2A00DBEF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			children = (
 				7983086620FBA66C0045BC7D /* AppDelegate.swift */,
 				7983086820FBA66C0045BC7D /* ViewController.swift */,
-				7983086A20FBA66D0045BC7D /* Assets.xcassets */,
+				792B9DC620FBED2A00803217 /* Device.swift */,
+				792B9DC820FBED3600803217 /* Backup.swift */,
+				792B9DCA20FBED3E00803217 /* iOS.swift */,
 				7983086C20FBA66D0045BC7D /* Main.storyboard */,
+				79CAB7E720FBFA2A00DBEF4F /* Assets.xcassets */,
 				7983086F20FBA66D0045BC7D /* Info.plist */,
 				7983087020FBA66D0045BC7D /* iDowngrade.entitlements */,
 			);
@@ -228,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7983086B20FBA66D0045BC7D /* Assets.xcassets in Resources */,
+				79CAB7E820FBFA2A00DBEF4F /* Assets.xcassets in Resources */,
 				7983086E20FBA66D0045BC7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792B9DC720FBED2A00803217 /* Device.swift in Sources */,
+				792B9DCB20FBED3E00803217 /* iOS.swift in Sources */,
+				792B9DC920FBED3600803217 /* Backup.swift in Sources */,
 				7983086920FBA66C0045BC7D /* ViewController.swift in Sources */,
 				7983086720FBA66C0045BC7D /* AppDelegate.swift in Sources */,
 			);
